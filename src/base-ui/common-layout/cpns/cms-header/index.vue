@@ -23,7 +23,7 @@ export default { name: 'cms-header' };
     <div class="header-left">
       <div class="exhibition-btn" @click="handleClickExhibitionBtn">
         <el-icon :size="26">
-          <Fold v-if="isFold" />
+          <Fold v-if="!isFold" />
           <Expand v-else />
         </el-icon>
       </div>

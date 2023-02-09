@@ -5,7 +5,6 @@ import DocumentList from '@/views/document/pages/list/index.vue';
 import DocumentTag from '@/views/document/pages/tag/index.vue';
 import System from '@/views/system/index.vue';
 import Login from '@/views/login/index.vue';
-
 import CommonLayout from '@/base-ui/common-layout/index.vue';
 
 import type { RouteRecordRaw } from 'vue-router';
