@@ -12,7 +12,9 @@
     "@element-plus/icons-vue": "^2.0.10",
     "element-plus": "^2.2.29",
     "normalize.css": "^8.0.1",
+    "oh-my-live2d": "^0.2.1",
     "pinia": "^2.0.30",
+    "typed.js": "^2.0.12",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },

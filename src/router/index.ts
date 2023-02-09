@@ -4,6 +4,8 @@ import Document from '@/views/document/index.vue';
 import DocumentList from '@/views/document/pages/list/index.vue';
 import DocumentTag from '@/views/document/pages/tag/index.vue';
 import System from '@/views/system/index.vue';
+import User from '@/views/system/pages/user/index.vue';
+
 import Login from '@/views/login/index.vue';
 import CommonLayout from '@/base-ui/common-layout/index.vue';
 
@@ -54,7 +56,14 @@ export const routes: RouteRecordRaw[] = [
         component: System,
         meta: {
           icon: 'Operation'
-        }
+        },
+        children: [
+          {
+            name: '用户列表',
+            path: '/system/user-list',
+            component: User
+          }
+        ]
       }
     ]
   },
